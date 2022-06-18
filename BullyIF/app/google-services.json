@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "927673388687",
+    "project_id": "bullyif-41ef9",
+    "storage_bucket": "bullyif-41ef9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927673388687:android:f1800ea48856e9f5e1aafa",
+        "android_client_info": {
+          "package_name": "com.felipebc.bullyif"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927673388687-iafgkr0agh95qjcjull3rnkd9v2cont1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.felipebc.bullyif",
+            "certificate_hash": "643c86532ca6a9159d5259123d4ed99ae64cfde9"
+          }
+        },
+        {
+          "client_id": "927673388687-0raqi12fdjesandgsjunvn6c87en00gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADWUTl-ywYpUQ4pfs6_7tTCm-E2CbrhME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927673388687-0raqi12fdjesandgsjunvn6c87en00gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

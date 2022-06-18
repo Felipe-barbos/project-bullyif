@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Grafico1Fragment"
+    android:background="@color/verdeSecundario">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+       >
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="440dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Núcleo de Informática"
+                    android:textColor="@color/white"/>
+
+                <ProgressBar
+                    android:id="@+id/progressNucleo"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:progressDrawable="@drawable/custom_progress_bar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Refeitório"
+                    android:textColor="@color/white"/>
+
+                <ProgressBar
+                    android:id="@+id/progressRefeitorio"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:progressDrawable="@drawable/custom_progress_bar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Auditório"
+                    android:textColor="@color/white"/>
+
+                <ProgressBar
+                    android:id="@+id/progressAuditorio"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:progressDrawable="@drawable/custom_progress_bar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ensino Médio"
+                    android:textColor="@color/white"/>
+
+                <ProgressBar
+                    android:id="@+id/progressEnsinoMedio"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:progressDrawable="@drawable/custom_progress_bar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
